@@ -13,7 +13,12 @@ void main(){
         printf("bucket buffer size is %d out of %d",store,buck_size);
         store = store-outgoing;
         printf("After outgoing %d left out of %d",store,buck_size);
+
+      }else{
+        printf("%d number of incoming packets are dropped",incoming);
+        printf("bucket buffer size is %d out of %d");
       }
+      n--;
     }
     
 }
