@@ -2,7 +2,7 @@
 void main(){
     int buck_size,incoming,outgoing,store=0,n;
     printf("enter bucket_size,outgoing and number of inputs");
-    scanf("%d",&buck_size,&outgoing,&n);
+    scanf("%d%d%d",&buck_size,&outgoing,&n);
     while (n!=0)
     {
       printf("enter incoming packet size");
